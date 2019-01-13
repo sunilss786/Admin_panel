@@ -24,14 +24,14 @@ public class Admin_Panel {
          WebDriver driver=new ChromeDriver();
          
 		 //Launch the Online Store Website
-		 driver.get("https://admin.grab.in/");
+		 driver.get("https://dev.grab.in/");
 		 
 		 //Maximize window
 		 driver.manage().window().maximize();
 		// Enter UserName
 		 driver.findElement(By.name("username")).sendKeys("suniltest");
 		 // Enter Password
-		 driver.findElement(By.name("password")).sendKeys("Sunny@7878");  //Grab@7869
+		 driver.findElement(By.name("password")).sendKeys("");  //Grab@7869
 		// Wait For Page To Load
 		 driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		 
